@@ -1,6 +1,6 @@
 import java.util.*;
 public class HashTableDemo{
-	public static void main(String args[]){
+	public static void main(String [] args){
       // Create a hash map
       Hashtable balance = new Hashtable();
       Hashtable balance2 = new Hashtable();
