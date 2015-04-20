@@ -1,4 +1,4 @@
-Methods
+Methods:
 
 boolean add(Object obj)
 
