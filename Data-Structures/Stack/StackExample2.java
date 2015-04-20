@@ -14,7 +14,7 @@ class StackExample2{
       System.out.println("stack: " + st);
    }
 
-   public static void main(String args[]){
+   public static void main(String [] args){
       Stack st = new Stack();
       System.out.println("stack: " + st);
       showPush(st, 42); showPush(st, 66); showPush(st, 99);
