@@ -1,6 +1,6 @@
 import java.util.*;
 public class HashSetDemo{
-   public static void main(String args[]){
+   public static void main(String [] args){
       HashSet hs = new HashSet();
 	  if(hs.isEmpty()){
 		  System.out.println("Empty");
