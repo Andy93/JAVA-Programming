@@ -11,7 +11,7 @@ public class BitSetExample{
      }
      System.out.println("b1: ");
      System.out.println(b1);
-     System.out.println("b2: ");
+     System.out.println("\nb2: ");
      System.out.println(b2);
 
      // AND bits
@@ -25,8 +25,10 @@ public class BitSetExample{
      System.out.println(b2);
 
      // XOR bits
-     b2.xor(b1);
-     System.out.println("\nb2 XOR b1: ");
+     //b2.xor(b1);
+     //System.out.println("\nb2 XOR b1: ");
+	 b2.clear();
+	 System.out.println("\nb2: ");
      System.out.println(b2);
   }
 }
